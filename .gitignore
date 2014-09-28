@@ -19,3 +19,13 @@
 *.exe
 *.out
 *.app
+
+# Visual studio stuff
+
+*.vcxproj*
+*.sln
+*.suo
+Debug
+Output-Build.txt
+*.sdf
+ipch

@@ -1,8 +1,6 @@
 #include "Game.h"
 
-int main()
-{
+int main(){
 	Game::RunGame();
-
 	return 0;
 }
