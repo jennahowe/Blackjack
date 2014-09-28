@@ -44,10 +44,10 @@ Game::Game(){
 		m_cPlayers.push_back(ComputerPlayer(compNames[i], compMaxTotals[i], compBets[i]));
 	}
 
-	//asking about 5:6 odds on blackjack
-	char fiveSix = GetYNInput("\n\tDo you want to play 5:6 blackjack? (y/n) ");
-	if(fiveSix == 'y'){
-		m_blackjackOdds = 5./6.;
+	//asking about 6:5 odds on blackjack
+	char sixFive = GetYNInput("\n\tDo you want to play 6:5 blackjack? (y/n) ");
+	if(sixFive == 'y'){
+		m_blackjackOdds = 6./5.;
 	} 
 	else{
 		m_blackjackOdds = 3./2.;
